@@ -212,8 +212,8 @@ footer .nav-footer ul .ubicacion h6 {
     padding-right: 1rem;
 }
 
-.container {
-    width: 80%;
+footer .container {
+    width: 90%;
     margin: auto;
     height: 100%;
 }
