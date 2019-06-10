@@ -1,0 +1,285 @@
+.header {
+    height: auto;
+    padding: .5rem 0 0;
+}
+
+.header div:nth-child(2) {
+    border-top: 2px solid #9f124a;
+    margin-top: .5rem;
+}
+
+.header .contheader {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+}
+
+.header .contheader>div {
+    text-align: center;
+}
+
+.header .contheader>div h2 {
+    font-size: 1.6rem;
+    margin-bottom: .4rem;
+    font-family: "CFPeruAdventure-Regular";
+}
+
+.header .contheader nav {
+    width: 100%;
+}
+
+.header .contheader nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.header .contheader nav ul li {
+    list-style: none;
+    width: calc(100% / 5);
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-right: 2px solid #9f124a;
+    padding: 0 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.header .contheader nav ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 0.9rem;
+    font-size: 1rem;
+    color: #000;
+    -webkit-transition: .4s all;
+    -o-transition: .4s all;
+    transition: .4s all;
+    position: relative;
+    padding: 0 .5rem .3rem;
+}
+
+.header .contheader nav ul li a:after {
+    content: '';
+    height: 1.5px;
+    background: #f30e5c;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    -webkit-transition: .5s all;
+    -o-transition: .5s all;
+    transition: .5s all;
+}
+
+.header .contheader nav ul li a:hover {
+    color: #f30e5c;
+}
+
+.header .contheader nav ul li a:hover:after {
+    width: 100%;
+}
+
+.header .contheader nav ul li:last-child {
+    border-right: none;
+}
+
+.header .contheader .logo-codigo {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.header .contheader .logo-turismo {
+    height: auto;
+    width: 90px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+
+main p {
+    font-size: .86rem;
+    margin-top: .5rem;
+}
+
+main h3 {
+    font-size: .9rem;
+    font-weight: 600;
+    color: #b80257;
+}
+
+main .first-section {
+    margin: 4rem 0;
+}
+
+main .first-section .cont-firtsection {
+    border: 1px solid #b80257;
+    border-radius: 5px;
+}
+
+main .first-section .cont-firtsection .description {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 1.5rem;
+    background: #b80257;
+}
+
+main .first-section .cont-firtsection .description p {
+    color: #fff;
+}
+
+main .first-section .cont-firtsection .item {
+    border-top: 1px solid #b80257;
+}
+
+main .first-section .cont-firtsection .cont-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+main .first-section .cont-firtsection .cont-item .item {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: .5rem 1rem;
+}
+
+main .first-section .cont-firtsection .cont-item .cont-img {
+    width: 25%;
+    border-right: 1px solid #b80257;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+main .first-section .cont-firtsection .cont-item .cont-img .img-box {
+    width: 65%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    height: 7rem;
+}
+
+main .first-section .cont-firtsection .cont-item .cont-img .img-box img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+main .first-section .cont-firtsection .cont-item .cont-text {
+    width: 75%;
+    padding: 1.5rem 1.5rem 2rem;
+}
+
+.second-section .cont-secondsection {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 1rem 0;
+    position: relative;
+}
+
+.second-section .cont-secondsection:before {
+    font-family: 'icomoon';
+    content: '\e901';
+    color: #e8e8e8;
+    position: absolute;
+    left: -2.4rem;
+    top: 23%;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.threesection h3 {
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: #d52b1e;
+}
+
+.threesection p {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.threesection .cont-threesection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.threesection .cont-threesection .videodestacado {
+    width: 35%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 2rem 2rem 2rem .5rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.threesection .cont-threesection .videodestacado .calificacion {
+    position: relative;
+}
+
+.threesection .cont-threesection .videodestacado .calificacion form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.threesection .cont-threesection .videodestacado .calificacion form input[type="checkbox"] {
+    display: none;
+}
+
+.threesection .cont-threesection .videodestacado .calificacion form label {
+    font-size: 1.5rem;
+    color: #dedede;
+}
+
+.threesection .cont-threesection .videodestacado .calificacion form input[type="checkbox"]:checked+label {
+    color: #e00543;
+}
+
+.threesection .cont-threesection .videodestacado .calificacion:before {
+    font-family: 'icomoon';
+    content: '\ea39';
+    color: #e8e8e8;
+    position: absolute;
+    left: -2rem;
+    top: -0.15em;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.threesection .cont-threesection .contvideo {
+    width: 65%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
