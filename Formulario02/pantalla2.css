@@ -113,4 +113,14 @@ li{
     text-align: center;
 }
 
+#footer{
+
+    position: absolute;
+    top: 95%;
+
+    height: 20%;
+    width: 100%;
+    background-image: url("./Img/Arequipa3.jpg");
+    
+}
 
