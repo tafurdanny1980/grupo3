@@ -1,0 +1,219 @@
+@font-face {
+    font-family: "AvenirLTStd-Book";
+    src: url("fonts/AvenirLTStd-Book/AvenirLTStd-Book.eot");
+    src: url("fonts/AvenirLTStd-Book/AvenirLTStd-Book.eot") format("embedded-opentype"), url("../fonts/AvenirLTStd-Book/AvenirLTStd-Book.woff2") format("woff2"), url("../fonts/AvenirLTStd-Book/AvenirLTStd-Book.woff") format("woff"), url("fonts/AvenirLTStd-Book/AvenirLTStd-Book.ttf") format("truetype"), url("../fonts/AvenirLTStd-Book/AvenirLTStd-Book.svg") format("svg");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "AvenirLTStd-Book";
+    src: url("fonts/AvenirLTStd-Book/AvenirLTStd-Medium.eot");
+    src: url("fonts/AvenirLTStd-Book/AvenirLTStd-Medium.eot") format("embedded-opentype"), url("fonts/AvenirLTStd-Book/AvenirLTStd-Medium.woff2") format("woff2"), url("../fonts/AvenirLTStd-Book/AvenirLTStd-Medium.woff") format("woff"), url("fonts/AvenirLTStd-Book/AvenirLTStd-Medium.ttf") format("truetype"), url("../fonts/AvenirLTStd-Book/AvenirLTStd-Medium.svg") format("svg");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "AvenirLTStd-Book";
+    src: url("fonts/AvenirLTStd-Book/AvenirLTStd-Black.eot");
+    src: url("fonts/AvenirLTStd-Book/AvenirLTStd-Black.eot") format("embedded-opentype"), url("../fonts/AvenirLTStd-Book/AvenirLTStd-Black.woff2") format("woff2"), url("fonts/AvenirLTStd-Book/AvenirLTStd-Black.woff") format("woff"), url("fonts/AvenirLTStd-Book/AvenirLTStd-Black.ttf") format("truetype"), url("fonts/AvenirLTStd-Book/AvenirLTStd-Black.svg") format("svg");
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url("fonts/Oswald/Oswald-Light.eot");
+    src: url("fonts/Oswald/Oswald-Light.eot") format("embedded-opentype"), url("../fonts/Oswald/Oswald-Light.woff2") format("woff2"), url("fonts/Oswald/Oswald-Light.woff") format("woff"), url("fonts/Oswald/Oswald-Light.ttf") format("truetype"), url("fonts/Oswald/Oswald-Light.svg") format("svg");
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url("fonts/Oswald/Oswald-Regular.eot");
+    src: url("fonts/Oswald/Oswald-Regular.eot") format("embedded-opentype"), url("fonts/Oswald/Oswald-Regular.woff2") format("woff2"), url("fonts/Oswald/Oswald-Regular.woff") format("woff"), url("fonts/Oswald/Oswald-Regular.ttf") format("truetype"), url("fonts/Oswald/Oswald-Regular.svg") format("svg");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url("fonts/Oswald/Oswald-Medium.eot");
+    src: url("fonts/Oswald/Oswald-Medium.eot") format("embedded-opentype"), url("fonts/Oswald/Oswald-Medium.woff2") format("woff2"), url("fonts/Oswald/Oswald-Medium.woff") format("woff"), url("fonts/Oswald/Oswald-Medium.ttf") format("truetype"), url("fonts/Oswald/Oswald-Medium.svg") format("svg");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url("fonts/Oswald/Oswald-Bold.eot");
+    src: url("fonts/Oswald/Oswald-Bold.eot") format("embedded-opentype"), url("fonts/Oswald/Oswald-Bold.woff2") format("woff2"), url("fonts/Oswald/Oswald-Bold.woff") format("woff"), url("fonts/Oswald/Oswald-Bold.ttf") format("truetype"), url("fonts/Oswald/Oswald-Bold.svg") format("svg");
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "CFPeruAdventure-Regular";
+    src: url("fonts/CFPeruAdventure-Regular.eot");
+    src: url("fonts/CFPeruAdventure-Regular.eot") format("embedded-opentype"), url("fonts/CFPeruAdventure-Regular.svg") format("svg"), url("fonts/CFPeruAdventure-Regular.ttf") format("truetype"), url("fonts/CFPeruAdventure-Regular.woff") format("woff"), url("fonts/CFPeruAdventure-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "AvenirLTStd-Book";
+}
+
+header {
+    height: 6rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: .5rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+header .contheader {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+header .contheader .right-header {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header .contheader .right-header>div {
+    padding: 0 1rem;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header .contheader .right-header>div h2 {
+    font-size: 1.6rem;
+    margin-bottom: .4rem;
+    font-family: "CFPeruAdventure-Regular";
+}
+
+header .contheader .right-header>div h5 {
+    color: #006fac;
+    font-size: 1rem;
+    font-weight: 800;
+    color: #f30e5c;
+}
+
+header .contheader .logo-turismo {
+    height: 100%;
+}
+
+header .contheader .logo-codigo {
+    width: 150px;
+    height: auto;
+}
+
+footer {
+    margin-top: 2rem;
+    height: 8rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: .5rem 0;
+    background: #1b1919;
+    color: white;
+}
+
+footer .nav-footer {
+    height: 100%;
+}
+
+footer .nav-footer ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+footer .nav-footer ul li {
+    list-style: none;
+    height: 100%;
+    color:white;
+}
+
+footer .nav-footer ul li a,
+footer .nav-footer ul li p {
+    color: #eeeeee;
+    font-size: .73rem;
+    text-decoration: none;
+    -webkit-transition: .4s all ease;
+    -o-transition: .4s all ease;
+    transition: .4s all ease;
+}
+
+footer .nav-footer ul li a:hover {
+    color: #c8c8c8;
+}
+
+footer .nav-footer ul li h6 {
+    font-size: .85rem;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+
+footer .nav-footer ul li>div {
+    height: 100%;
+}
+
+footer .nav-footer ul .ubicacion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+footer .nav-footer ul .ubicacion h6 {
+    padding-right: 1rem;
+}
+
+footer .container {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+}
